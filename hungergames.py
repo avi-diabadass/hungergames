@@ -8,7 +8,7 @@ from selenium.webdriver.support.select import Select
 class SetUpTheGame(object):
 
     def __init__(self):
-        self.path = '/Users/avigranoff/Desktop/chromedriver'
+        self.path = '/path'
         self.driver = webdriver.Chrome(self.path)
         self.unknown = '//*[@id="gender"]/option[2]'
         self.male = '//*[@id="gender"]/option[3]'
